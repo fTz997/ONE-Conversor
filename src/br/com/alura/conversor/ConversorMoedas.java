@@ -61,7 +61,6 @@ public class ConversorMoedas {
 
             // Exibe o menu de opções ao usuário
             System.out.println("\n");
-            System.out.println("***********************************************************");
             System.out.println("Seja bem vindo(a) ao Conversor de Moedas!");
             System.out.println("1) Dólar =>> Peso argentino");
             System.out.println("2) Peso argentino =>> Dólar");
@@ -71,7 +70,6 @@ public class ConversorMoedas {
             System.out.println("6) Peso colombiano =>> Dólar");
             System.out.println("7) Sair");
             System.out.println("Escolha uma opção válida:");
-            System.out.print("***********************************************************");
             System.out.print("\n");
             opcao = leitura.nextInt(); // Lê a opção escolhida pelo usuário
 
@@ -150,22 +148,18 @@ public class ConversorMoedas {
         }
     }
 
-    // Método que realiza a conversão de Dólar para outras moedas
     static double converterDolarParaDemaisMoedas(double quantidade, double taxaConversao) {
         return quantidade * taxaConversao; // Multiplica a quantidade pela taxa de conversão
     }
 
-    // Método que realiza a conversão de Peso Argentino para Dólar
     static double converterArsParaUsd(double quantidade, double taxaConversao) {
         return quantidade / taxaConversao; // Divide a quantidade pela taxa de conversão
     }
 
-    // Método que realiza a conversão de Real Brasileiro para Dólar
     static double converterBrlParaUsd(double quantidade, double taxaConversao) {
         return quantidade / taxaConversao; // Divide a quantidade pela taxa de conversão
     }
 
-    // Método que realiza a conversão de Peso Colombiano para Dólar
     static double converterCopParaUsd(double quantidade, double taxaConversao) {
         return quantidade / taxaConversao; // Divide a quantidade pela taxa de conversão
     }
