@@ -10,7 +10,7 @@ Este projeto é um **Conversor de Moedas** desenvolvido como parte de um challen
     - 🇧🇷 Real Brasileiro (BRL)
     - 🇨🇴 Peso Colombiano (COP)
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Java**
 - **Gson** para manipulação de JSON
